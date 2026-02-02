@@ -1,0 +1,31 @@
+{
+  "name": "clash-config-editor-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit -p tsconfig.json",
+    "type-coverage": "type-coverage --project tsconfig.json --atLeast 80 --detail"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@sentry/vue": "^8.55.0",
+    "axios": "^1.6.2",
+    "element-plus": "^2.5.1",
+    "js-yaml": "^4.1.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5",
+    "vue-virtual-scroller": "^2.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "type-coverage": "^2.29.7",
+    "typescript": "5.9.3",
+    "vite": "^5.0.8",
+    "vue-tsc": "^3.2.2"
+  }
+}
