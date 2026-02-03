@@ -1,0 +1,42 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm/
+.pnp/
+.pnp.js
+
+# 构建产物 / 覆盖率
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# 环境变量（保留示例文件）
+.env
+.env.*
+!.env.example
+
+# 本项目运行时生成目录
+clash-conver-editor/backend/public/
+clash-conver-editor/.backups/
+clash-conver-editor/configs/*
+!clash-conver-editor/configs/example.yaml
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+
